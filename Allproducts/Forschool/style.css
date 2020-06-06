@@ -1,0 +1,58 @@
+.navbar,.dropdown-item{
+    background-color: yellow!important;
+}
+
+.navbar-brand,.nav-link{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.wehave{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ___________________________________________END OF NAVBAR__________________________________________________ */
+
+
+.card-img-top{
+    width: 248px ;
+    height: 150px ;
+}
+
+
+.card-title,.card-text{
+    font-weight: bold;
+    text-align: center;
+}
+.btn-primary{
+    width: 100%;
+    background-color: yellow;
+}
+.card{
+    margin-top: 50px;
+    border-color: rebeccapurple ;
+    width: 250px;
+    height: auto !important;
+}
+
+@media screen and (max-width:600px){
+    .card {
+        justify-content: center !important;
+        width: 100%;
+    }
+}
+
+.forcontact{
+    background-color: yellow;
+    width: auto;
+    height: 50px;
+}
